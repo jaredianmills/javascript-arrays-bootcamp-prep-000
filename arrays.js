@@ -16,3 +16,5 @@ function addElementToEndOfArray(array, element) {
   var addToEnd = [...newArray, element];
   return addToEnd;
 }
+
+function destructivelyAddElementToEndOfArray(array, element)
